@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BCS</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #eee;">
+
+  <nav class="navbar  navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">BCS</a>
+    </div>
+  </nav>
+  <div class="jumbotron text-center" style="background-color: #fff; padding: 12px;">
+    <h1 class="display-6">Hello, world!</h1>
+    <h3 class="display-7">Hello, world!</h3>
+  </div>
+  <br>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+
+        <div class="accordion" id="capters">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-chapter1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseChapter1">
+                <b class="text-dark">Chapter 1</b>
+              </button>
+            </h2>
+            <div id="flush-collapseChapter1" class="accordion-collapse collapse" aria-labelledby="flush-chapter1" data-bs-parent="#capters">
+              <div class="accordion-body">
+                <div class="text-center"><a href="chapter1.zip" class="btn btn-primary">Download Chaper 1</a></div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">1.1 <div class="float-end">1-100</div></li>
+                  <li class="list-group-item">1.2 <div class="float-end">101-200</div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-chapter2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseChapter2">
+                <b class="text-dark">Chapter 2</b>
+              </button>
+            </h2>
+            <div id="flush-collapseChapter2" class="accordion-collapse collapse" aria-labelledby="flush-chapter2" data-bs-parent="#capters">
+              <div class="accordion-body">
+                <div class="text-center"><a href="chapter2.zip" class="btn btn-primary">Download Chaper 2</a></div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Topic 1 <div class="float-end">201-300</div></li>
+                  <li class="list-group-item">Topic 2 <div class="float-end">301-400</div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <footer class="fixed-bottom pt-3 bg-dark" style="min-height: 60px;">
+    <div class="text-center">
+      <small class="text-white"><i>Presented by his loving family <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FA1E0E" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+</svg></i></small>
+    </div>
+  </footer>
+</body>
+</html>
